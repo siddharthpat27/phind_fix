@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chinese Restaurant</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #FFA07A; /* Light coral background */
+        }
+        header {
+            background-color: #FF4500; /* OrangeRed background */
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+        header a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .recipe {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 20px;
+            padding: 20px;
+            background-color: #FFFFFF; /* White background */
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        }
+        .recipe img {
+            width: 100%;
+            height: auto;
+        }
+        .recipe h3 {
+            margin-top: 10px;
+        }
+        footer {
+            background-color: #FF4500; /* OrangeRed background */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        form {
+            background-color: #FFDAB9; /* PeachPuff background */
+            padding: 20px;
+            margin: 20px;
+            border-radius: 10px;
+        }
+        form h2 {
+            margin-bottom: 10px;
+        }
+        form input, form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #FF4500; /* OrangeRed border */
+        }
+        form button {
+            background-color: #FF4500; /* OrangeRed background */
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Menu</a>
+        <a href="#">About</a>
+    </header>
+
+    <div class="recipe">
+        <img src="path/to/recipe1.jpg" alt="Recipe 1">
+        <h3>Recipe 1</h3>
+        <p>Description of Recipe 1</p>
+    </div>
+
+    <div class="recipe">
+        <img src="path/to/recipe2.jpg" alt="Recipe 2">
+        <h3>Recipe 2</h3>
+        <p>Description of Recipe 2</p>
+    </div>
+
+    <!-- Add more recipes as needed -->
+
+    <footer>
+        &copy; 2023 Chinese Restaurant. All rights reserved.
+    </footer>
+
+    <form>
+    <h2>Contact Us</h2>
+    <label for="name">Your Name</label>
+    <input type="text" id="name" placeholder="Your Name" required>
+    
+    <label for="email">Your Email</label>
+    <input type="email" id="email" placeholder="Your Email" required>
+    
+    <label for="message">Your Message</label>
+    <textarea id="message" placeholder="Your Message" required></textarea>
+    
+    <button type="submit">Submit</button>
+</form>
+
+
+    <script>
+        // JavaScript code can go here if needed
+    </script>
+</body>
+</html>
